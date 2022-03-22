@@ -1,0 +1,64 @@
+<head>
+  <title>Login</title>
+
+  <link href="../styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <section class="container">
+    <form class="form">
+      <h1 class="title">Faça seu login</h1>
+
+      <div class="box">
+        <label for="email-field" class="label-field">E-mail</label>
+        <input
+          type="text"
+          placeholder="Digite seu e-mail"
+          id="email-field"
+          class="field-input"
+          required
+        />
+      </div>
+      <div class="box">
+        <label for="password-fiel" class="label-field">Senha</label>
+        <input
+          id="password-fiel"
+          type="password"
+          placeholder="Digite uma senha"
+          class="field-input"
+          required
+        />
+      </div>
+
+      <div class="double-box">
+        <div class="terms box space-between">
+          <input
+            type="checkbox"
+            class="checkbox-field"
+            id="checkbox-field"
+            required
+          />
+          <label class="label-field" for="checkbox-field">
+            Mantenha-me conectado</label
+          >
+        </div>
+        <div class="box space-between">
+          <label class="label-field">
+            <a href="#">Esqueci minha senha </a>
+          </label>
+        </div>
+      </div>
+      <div>
+        <div class="box">
+          <button class="button-field">Entrar</button>
+        </div>
+      </div>
+      <div class="account">
+        <p class="label-field">
+          Ainda não tem uma conta?
+          <a target="_blank" rel="nofollow" href="#">Cadastre-se</a>
+        </p>
+      </div>
+    </form>
+  </section>
+</body>
