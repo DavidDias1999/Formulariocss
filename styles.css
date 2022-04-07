@@ -11,12 +11,27 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.container-register{
+  max-width: 396px;
+  width: 396px;
+}
+
+.container-login{
+  max-width: 515px;
+  width: 515px;
+}
+
+.container-reset{
+  max-width: 522px;
+  width: 522px;
+}
+
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  max-width: 396px;
   width: 100%;
 }
 
@@ -51,7 +66,7 @@ body {
 
 .field-input,
 .select {
-  width: 100%;
+  max-width: 100%;
   border: 1px solid #abb3a8;
   padding: 12px 14px;
 }
@@ -71,7 +86,7 @@ body {
 }
 
 .checkbox-field {
-  margin: 10px;
+  margin-right : 10px;
   min-width: 18px;
   min-height: 18px;
   
@@ -92,14 +107,20 @@ body {
   transition-duration: 300ms;
 }
 
-.button-field:hover {
-  background-color: #3f3d56ec;
-  
-}
+
 a {
   color: #1db9e0;
 }
 
 .account{
     margin-bottom: 30px;
+}
+
+.p-repair{
+  margin-top: 31px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
